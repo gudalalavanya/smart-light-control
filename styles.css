@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/*Container */
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+/*Buttons */
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.btn {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #ff4b2b, #ff416c);
+  transform: scale(1.1);
+}
+
+/*Sliders */
+.slider-container {
+  margin: 20px 0;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+
+.slider {
+  width: 100%;
+  height: 10px;
+  background: #333;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.slider:hover {
+  background: #ff4b2b;
+}
+
+/*  Sensor Display */
+.sensor-info {
+  font-size: 18px;
+  font-weight: bold;
+  background: #333;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/*Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ffffff;
+  text-align: center;
+}
+
+th {
+  background-color: #ff416c;
+}
