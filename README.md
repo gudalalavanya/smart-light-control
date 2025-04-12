@@ -1,10 +1,17 @@
 # smart-light-control
+
 *company*:CODTECH IT SOLUTIONS
+
 *NAME*:Gudala Lavanya
+
 *INTERN ID*:CT04WN130
+
 *DOMAIN*:IOT
+
 *DURATION*:4 WEEKS
+
 *MENTOR*:NEELA SANTHOSH
+
 **ABOUT**
 This project demonstrates how to control an LED light using a microcontroller (Arduino) and a mobile application via Bluetooth communication. The system allows users to turn the LED ON and OFF remotely using their smartphones.
 *TOOLS*:Component	Description
